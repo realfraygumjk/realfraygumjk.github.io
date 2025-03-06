@@ -3,73 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sonic6h | Developer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Welcome to Sonic6h's Page</title>
+    
+    <!-- Importing the Fruiger Aero font -->
+    <link href="https://fonts.googleapis.com/css2?family=Fruiger+Font&display=swap" rel="stylesheet">
+    
+    <!-- Basic styling for the page -->
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Fruiger Font', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
             margin: 0;
             padding: 0;
-            background-color: #1a1a1a;
-            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
             text-align: center;
-        }
-        header {
-            background: #333;
+            background-color: #1a1a1a;
             padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+            width: 80%;
+            max-width: 600px;
         }
-        nav ul {
-            list-style: none;
-            padding: 0;
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
         }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 10px;
         }
-        nav a {
-            color: #0dcaf0;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        section {
-            padding: 50px;
-        }
-        footer {
-            background: #222;
-            padding: 20px;
+
+        p {
+            font-size: 1rem;
             margin-top: 20px;
         }
+
+        .tech-stack {
+            margin-top: 30px;
+        }
+
+        .tech-stack ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .tech-stack li {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #888;
+        }
+
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Sonic6h's Developer Portfolio</h1>
-        <nav>
+
+    <div class="container">
+        <h1>Welcome to Sonic6h's Page</h1>
+        <h2>HTML & Node.js Beginner Developer</h2>
+        <p>Hey there! I'm Sonic6h, and I'm diving into the world of web development. I'm just getting started with HTML and Node.js, and I’m excited to learn and grow in this field!</p>
+
+        <div class="tech-stack">
+            <h3>Tech Stack</h3>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li>HTML</li>
+                <li>Node.js</li>
             </ul>
-        </nav>
-    </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hey! I'm Sonic6h, a passionate developer learning HTML, CSS, and Node.js. Excited to build cool projects and share my journey!</p>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>🚀 Stay tuned! Exciting projects coming soon.</p>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>📧 Reach me on <a href="https://github.com/sonic6h" target="_blank">GitHub</a> or Discord!</p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 Sonic6h. All rights reserved.</p>
-    </footer>
+        </div>
+
+        <div class="footer">
+            <p>Created by Sonic6h | Stay tuned for more updates!</p>
+        </div>
+    </div>
+
 </body>
 </html>
